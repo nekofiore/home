@@ -1,0 +1,49 @@
+@keyframes spin-in {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(135deg);
+    opacity: 1;
+  }
+}
+
+@keyframes shift-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-19rem);
+  }
+}
+
+@keyframes border-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes intro-fade-in {
+  0% {
+    opacity: 0;
+    gap: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    gap: 0;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    gap: 4rem;
+    transform: translateY(-1rem);
+  }
+}
