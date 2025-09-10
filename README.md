@@ -13,4 +13,4 @@
 
 This repository is for me to experiment website design. The challenge is to make a single-page hub to showcase all of my work (if I decide to actually work on this more, then I might make it my actual home page).
 
-check out my other site https://nekofiore.net (or https://nekofiore.github.io/novel-site) for actual content
+check out my other site [nekofiore.net](https://nekofiore.net) (or [nekofiore.github.io/novel-site](https://nekofiore.github.io/novel-site)) for actual content
