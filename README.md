@@ -9,7 +9,9 @@
 
 --- 
 
-### **NOTE: THIS IS STILL WIP**
+this page is live at [nekofiore.github.io/home](https://nekofiore.github.io/home/)
+
+### **NOTE: THIS IS STILL WIP (LIKE 2% COMPLETE)**
 
 This repository is for me to experiment website design. The challenge is to make a single-page hub to showcase all of my work (if I decide to actually work on this more, then I might make it my actual home page).
 
