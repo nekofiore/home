@@ -26,9 +26,3 @@
 .body {
   color: transparent
 }
-
-.home-page {
-  background-image: url('../assets/bg/comet.png');
-  background-size: cover;
-  background-position: center;
-}

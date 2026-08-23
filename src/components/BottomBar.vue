@@ -1,6 +1,10 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
+// icons are imported
+import xIcon from '../assets/icons/x.png'
+import kofiIcon from '../assets/icons/kofi.png'
+
 // icons per item:
 // - `link`   : URL to open. Leave empty to have the icon link back to the current page.
 // - `copyText`: set this INSTEAD of `link` to copy text to the clipboard on click, rather
@@ -10,9 +14,9 @@ import { ref, onMounted, onUnmounted } from 'vue'
 // - `tooltip`: optional { header, description } shown on hover. Omit for no tooltip.
 //              A "(Click to copy)" hint is added automatically when `copyText` is set.
 const apps = [
-  { label: 'X', icon: 'src/assets/icons/x.png', link: 'https://x.com/tensofu', 
+  { label: 'X', icon: xIcon, link: 'https://x.com/tensofu',
     tooltip: { header: 'X', description: 'See my doodles and stuff here!' } },
-  { label: 'Ko-fi', icon: 'src/assets/icons/kofi.png', link: 'https://ko-fi.com/tensofu', bgColor: '#fff',
+  { label: 'Ko-fi', icon: kofiIcon, link: 'https://ko-fi.com/tensofu', bgColor: '#fff',
     tooltip: { header: 'Ko-fi', description: 'Support me by buying a coffee!' } },
 ]
 
